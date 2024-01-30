@@ -33,6 +33,7 @@ set(msg_files
   msg/MultiDOFCommand.msg
   msg/MultiDOFStateStamped.msg
   msg/PidState.msg
+  msg/Robotiq2f140GripperCommand.msg
   msg/SingleDOFState.msg
   msg/SingleDOFStateStamped.msg
   msg/SteeringControllerStatus.msg
