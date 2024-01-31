@@ -8,6 +8,7 @@ add_action_files(DIRECTORY action FILES
   GripperCommand.action
   JointTrajectory.action
   PointHead.action
+  Robotiq2fGripperCommand.action
   SingleJointPosition.action)
 
 add_message_files(DIRECTORY msg FILES
@@ -16,7 +17,9 @@ add_message_files(DIRECTORY msg FILES
   JointJog.msg
   JointTolerance.msg
   JointTrajectoryControllerState.msg
-  PidState.msg)
+  PidState.msg
+  Robotiq2fGripperCommand.msg
+)
 
 add_service_files(DIRECTORY srv FILES
   QueryCalibrationState.srv
