@@ -1,4 +1,5 @@
 float64 gap_size        # gap size [m], resolution is 0.6 mm. Closed = 0m, Fully Open = 0.085m (2f-85) and 0.140m (2f-140)
+float64 gap_size_offset # offset applied to firmly grasp the object, internal or external grasp
 float64 speed           # velocity [m/s]
 float64 effort_scaling  # effort scale between 0 and 1, 0 = lowest force, 1 = highest force
                         # depends on speed, finger pads hardness and payload hardness (see figure below)
